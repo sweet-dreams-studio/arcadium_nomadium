@@ -1,0 +1,202 @@
+{
+  "arcadeId": 0,
+  "service": {
+    "enabled": true,
+    "rabbitMq": {
+      "ip": "localhost",
+      "login": "guest",
+      "password": "guest",
+      "queueNames": {
+        "gameLaunched": "arcade_nomad_game_launched",
+        "gameRating": "arcade_nomad_game_rating"
+      }
+    }
+  },
+  "pauseImages": [
+    {
+      "path": "pause/1-Paris.jpg",
+      "extension": "jpg"
+    },
+    {
+      "path": "pause/2-Filou.JPG",
+      "extension": "jpg"
+    },
+    {
+      "path": "pause/3-Nomad.png",
+      "extension": "png"
+    }
+  ],
+  "monitoring": {
+    "enabled": true,
+    "secondsInterval": 120
+  },
+  "controllers": {
+    "timeUntilInactivity": 30000,
+    "longpressSelect": 2000,
+    "gamepad": {
+      "enabled": true
+    },
+    "keyboard": {
+      "enabled": true
+    }
+  },
+  "defaultGenre": "Tous les jeux",
+  "standardKeys": {
+    "ARROW_UP": "ARROW_UP",
+    "ARROW_DOWN": "ARROW_DOWN",
+    "ARROW_LEFT": "ARROW_LEFT",
+    "ARROW_RIGHT": "ARROW_RIGHT",
+    "BOTTOM_LEFT": "BOTTOM_LEFT",
+    "RIGHT": "RIGHT",
+    "LEFT": "LEFT",
+    "TOP_RIGHT": "TOP_RIGHT",
+    "TOP_LEFT": "TOP_LEFT",
+    "CENTER": "CENTER",
+    "SELECT": "SELECT",
+    "START": "START"
+  },
+  "keyboardKeys": {
+    "38": "ARROW_UP",
+    "40": "ARROW_DOWN",
+    "37": "ARROW_LEFT",
+    "39": "ARROW_RIGHT",
+    "87": "BOTTOM_LEFT",
+    "68": "RIGHT",
+    "81": "LEFT",
+    "69": "TOP_RIGHT",
+    "65": "TOP_LEFT",
+    "83": "CENTER",
+    "66": "SELECT",
+    "78": "START"
+  },
+  "joystickAxis": {
+    "HORIZONTAL": 4,
+    "VERTICAL": 3
+  },
+  "gamepadKeys": {
+    "5": "BOTTOM_LEFT",
+    "11": "RIGHT",
+    "4": "LEFT",
+    "2": "TOP_RIGHT",
+    "3": "TOP_LEFT",
+    "15": "CENTER",
+    "0": "SELECT",
+    "1": "START"
+  },
+  "keys": {
+    "textSizePercentage": 1.5,
+    "joystickPlacement": {
+      "xPercentage": 16,
+      "yPercentage": 65,
+      "color": "black",
+      "radiusPercentage": 7,
+      "textDistancePercentage": 6
+    },
+    "buttonPlacements": {
+      "START": {
+        "xPercentage": 95,
+        "yPercentage": 2,
+        "color": "white",
+        "radiusPercentage": 5,
+        "displayText": {
+          "enabled": true,
+          "angleDeg": 90,
+          "distancePercentage": 7,
+          "xAlign": "center",
+          "yAlign": "center"
+        }
+      },
+      "SELECT": {
+        "xPercentage": 5,
+        "yPercentage": 2,
+        "color": "white",
+        "radiusPercentage": 5,
+        "displayText": {
+          "enabled": true,
+          "angleDeg": 90,
+          "distancePercentage": 7,
+          "xAlign": "center",
+          "yAlign": "center"
+        }
+      },
+      "CENTER": {
+        "xPercentage": 64.5,
+        "yPercentage": 50,
+        "color": "red",
+        "radiusPercentage": 5,
+        "displayText": {
+          "enabled": true,
+          "angleDeg": 80,
+          "distancePercentage": 7,
+          "xAlign": "left",
+          "yAlign": "center"
+        }
+      },
+      "RIGHT": {
+        "xPercentage": 77,
+        "yPercentage": 50,
+        "color": "red",
+        "radiusPercentage": 5,
+        "displayText": {
+          "enabled": true,
+          "angleDeg": 0,
+          "distancePercentage": 7,
+          "xAlign": "left",
+          "yAlign": "center"
+        }
+      },
+      "TOP_RIGHT": {
+        "xPercentage": 71,
+        "yPercentage": 34,
+        "color": "red",
+        "radiusPercentage": 5,
+        "displayText": {
+          "enabled": true,
+          "angleDeg": 270,
+          "distancePercentage": 7,
+          "xAlign": "center",
+          "yAlign": "bottom"
+        }
+      },
+      "TOP_LEFT": {
+        "xPercentage": 58,
+        "yPercentage": 34,
+        "color": "red",
+        "radiusPercentage": 5,
+        "displayText": {
+          "enabled": true,
+          "angleDeg": 270,
+          "distancePercentage": 7,
+          "xAlign": "center",
+          "yAlign": "bottom"
+        }
+      },
+      "LEFT": {
+        "xPercentage": 52,
+        "yPercentage": 50,
+        "color": "red",
+        "radiusPercentage": 5,
+        "displayText": {
+          "enabled": true,
+          "angleDeg": 180,
+          "distancePercentage": 7,
+          "xAlign": "right",
+          "yAlign": "center"
+        }
+      },
+      "BOTTOM_LEFT": {
+        "xPercentage": 58,
+        "yPercentage": 66,
+        "color": "red",
+        "radiusPercentage": 5,
+        "displayText": {
+          "enabled": true,
+          "angleDeg": 90,
+          "distancePercentage": 7,
+          "xAlign": "center",
+          "yAlign": "top"
+        }
+      }
+    }
+  }
+}

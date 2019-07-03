@@ -1,0 +1,68 @@
+{
+  "name": "Dofus",
+  "exePath": "C:\\Windows\\notepad.exe",
+  "presentation": {
+    "jacket": {
+      "path": "images/img1.jpg",
+      "extension": "jpg"
+    },
+    "pictures": [
+      {
+        "path": "images/gameplay.jpg",
+        "extension": "jpg"
+      }
+    ]
+  },
+  "genres": [
+    "MMORPG",
+    "Hack'n'slash"
+  ],
+  "informations": {
+    "editor": "Ankama",
+    "pegi": "3",
+    "qrcode": "code",
+    "link": "https://dofus.com"
+  },
+  "keybinds": {
+    "0": {
+      "ARROW_UP": "Up",
+      "ARROW_DOWN": "Down",
+      "ARROW_LEFT": "Left",
+      "ARROW_RIGHT": "Right",
+      "BOTTOM_LEFT": "P",
+      "RIGHT": "M",
+      "LEFT": "K",
+      "TOP_RIGHT": "O",
+      "TOP_LEFT": "I",
+      "CENTER": "L",
+      "START": "Y"
+    },
+    "1": {
+      "ARROW_UP": "Z",
+      "ARROW_DOWN": "S",
+      "ARROW_LEFT": "Q",
+      "ARROW_RIGHT": "D",
+      "BOTTOM_LEFT": "V",
+      "RIGHT": "H",
+      "LEFT": "F",
+      "TOP_RIGHT": "T",
+      "TOP_LEFT": "R",
+      "CENTER": "G",
+      "START": "Y"
+    }
+  },
+  "keyTexts": {
+    "ARROW_UP": "Avant",
+    "ARROW_DOWN": "Arrière",
+    "ARROW_LEFT": "Gauche",
+    "ARROW_RIGHT": "Droite",
+    "BOTTOM_LEFT": "Attaquer",
+    "RIGHT": "",
+    "LEFT": "",
+    "TOP_RIGHT": "",
+    "TOP_LEFT": "Sauter",
+    "CENTER": "",
+    "START": "Appuyer pour commencer",
+    "SELECT": "Maintenir pour quitter"
+  }
+}

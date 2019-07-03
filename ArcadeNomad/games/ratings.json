@@ -1,0 +1,38 @@
+[
+  {
+    "game": "Minecraft",
+    "average": 3.769230769230769,
+    "totalRatings": 98,
+    "nbOfRatings": 26
+  },
+  {
+    "game": "Sonic",
+    "average": 4.5,
+    "totalRatings": 9,
+    "nbOfRatings": 2
+  },
+  {
+    "game": "Mario",
+    "average": 2.5,
+    "totalRatings": 20,
+    "nbOfRatings": 8
+  },
+  {
+    "game": "Trackmania",
+    "average": 4.6,
+    "totalRatings": 23,
+    "nbOfRatings": 5
+  },
+  {
+    "game": "Dofus",
+    "average": 3.4,
+    "totalRatings": 34,
+    "nbOfRatings": 10
+  },
+  {
+    "game": "Signal",
+    "average": 4.25,
+    "totalRatings": 17,
+    "nbOfRatings": 4
+  }
+]

@@ -1,0 +1,17 @@
+node_modules/
+
+# WebStorm
+.idea/
+
+# Generated webpack files
+dist/
+
+# macOS
+**/.DS_Store
+
+# Application logs
+logs/
+yarn-error.log
+
+# Packaged binaries
+package/

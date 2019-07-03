@@ -1,0 +1,68 @@
+{
+  "name": "Trackmania",
+  "exePath": "E:\\/jeux/TmNationsForever/TmForever.exe",
+  "presentation": {
+    "jacket": {
+      "path": "images/img1.jpg",
+      "extension": "jpg"
+    },
+    "pictures": [
+      {
+        "path": "images/gameplay.jpg",
+        "extension": "jpg"
+      }
+    ]
+  },
+  "genres": [
+    "Courses"
+  ],
+  "informations": {
+    "editor": "Nadeo",
+    "pegi": "3",
+    "qrcode": "code",
+    "link": "https://trackmania.com/"
+  },
+  "keybinds": {
+    "0": {
+      "ARROW_UP": "A",
+      "ARROW_DOWN": "Down",
+      "ARROW_LEFT": "Left",
+      "ARROW_RIGHT": "Right",
+      "BOTTOM_LEFT": "Up",
+      "RIGHT": "D",
+      "LEFT": "B",
+      "TOP_RIGHT": "E",
+      "TOP_LEFT": "A",
+      "CENTER": "S",
+      "START": "Enter",
+      "SELECT": "Escape"
+    },
+    "1": {
+      "ARROW_UP": "Z",
+      "ARROW_DOWN": "S",
+      "ARROW_LEFT": "Q",
+      "ARROW_RIGHT": "D",
+      "BOTTOM_LEFT": "V",
+      "RIGHT": "H",
+      "LEFT": "F",
+      "TOP_RIGHT": "T",
+      "TOP_LEFT": "R",
+      "CENTER": "G",
+      "START": "Y"
+    }
+  },
+  "keyTexts": {
+    "ARROW_UP": "",
+    "ARROW_DOWN": "",
+    "ARROW_LEFT": "Gauche",
+    "ARROW_RIGHT": "Droite",
+    "BOTTOM_LEFT": "Accélérer",
+    "RIGHT": "",
+    "LEFT": "Freiner",
+    "TOP_RIGHT": "Klaxon",
+    "TOP_LEFT": "Reset",
+    "CENTER": "",
+    "START": "Appuyer pour commencer",
+    "SELECT": "Maintenir pour quitter"
+  }
+}
