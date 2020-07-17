@@ -25,7 +25,7 @@
     "gamepad": "^1.6.0",
     "keylib": "./keylib",
     "lazy-get-decorator": "^2.2.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "polished": "^3.3.0",
     "react": "16.7",
     "react-dom": "16.7",
